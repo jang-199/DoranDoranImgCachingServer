@@ -1,0 +1,16 @@
+spring:
+  cache:
+    type: redis
+    redis:
+      cache-null-values: false # null ?? ??
+      host: localhost
+      port: 6379
+
+#servlet default encoding UTF-8
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
+  servlet:
+    encoding:
+      force: true
