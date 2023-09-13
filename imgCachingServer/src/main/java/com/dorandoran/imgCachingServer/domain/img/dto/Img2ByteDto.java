@@ -1,4 +1,4 @@
-package com.dorandoran.imgCachingServer.dto;
+package com.dorandoran.imgCachingServer.domain.img.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

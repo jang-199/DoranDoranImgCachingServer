@@ -1,6 +1,6 @@
-package com.dorandoran.imgCachingServer.dto;
+package com.dorandoran.imgCachingServer.domain.img.dto;
 
-import com.dorandoran.imgCachingServer.dto.type.ImgType;
+import com.dorandoran.imgCachingServer.domain.img.dto.type.ImgType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -14,6 +14,7 @@ public class Img2CacheServerDto {
     ImgType imgType;
     String FileName; //확장자까지
     MultipartFile pic;
+
 
     public Img2CacheServerDto() {
     }

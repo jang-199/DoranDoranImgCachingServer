@@ -1,6 +1,6 @@
-package com.dorandoran.imgCachingServer.config;
+package com.dorandoran.imgCachingServer.global.config;
 
-import com.dorandoran.imgCachingServer.dto.Img2ByteDto;
+import com.dorandoran.imgCachingServer.domain.img.dto.Img2ByteDto;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

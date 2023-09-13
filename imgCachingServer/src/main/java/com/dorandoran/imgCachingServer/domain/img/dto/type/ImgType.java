@@ -1,4 +1,4 @@
-package com.dorandoran.imgCachingServer.dto.type;
+package com.dorandoran.imgCachingServer.domain.img.dto.type;
 
 public enum ImgType {
     UserUpload,
